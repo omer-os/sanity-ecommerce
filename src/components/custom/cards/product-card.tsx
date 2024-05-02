@@ -7,7 +7,13 @@ export default function ProductCard() {
     <Link href={`/products/1`}>
       <Card>
         <CardHeader className="p-0">
-          <figure className="h-64 w-full rounded-t-md bg-gray-200"></figure>
+          <figure className="h-64 w-full rounded-t-md">
+            <img
+              src="https://storefront.saleor.io/_next/image?url=https%3A%2F%2Fstorefront1.saleor.cloud%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-pauls-blanace-420-1_thumbnail_1024.webp&w=750&q=75"
+              alt=""
+              className="h-full w-full object-contain"
+            />
+          </figure>
         </CardHeader>
         <CardContent>
           <div className="pt-4 text-xl font-bold">Product Name</div>
